@@ -27,6 +27,8 @@ SECRET_KEY = "django-insecure--emq89lz76bn32hh@4j*^r3jd&gn*=1m6o3vaqx-(7@wt^6i_n
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+#adding custom user model
+AUTH_USER_MODEL = "students.User"
 
 
 # Application definition
